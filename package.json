@@ -1,0 +1,14 @@
+{
+  "name": "oracleproject",
+  "version": "1.0.0",
+  "description": "Just for learn node.js",
+  "main": "app.js",
+  "scripts": {
+    "test" : "jest" ,
+    "int-test": "mocha --require babel-core/register --recursive test",
+    "start": "node checkConnection.js",
+    "type": "module"
+  },
+  "author": "",
+  "license": "ISC"
+}
